@@ -46,7 +46,7 @@ jobs:
       checks: write
       contents: read
       
-  deploy:
+  build:
     needs: [delivery]
     
     name: Deploy
